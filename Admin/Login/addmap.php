@@ -66,7 +66,7 @@
 
 </html>
 <?php
-if ((isset($_POST["username"])) && (isset($_POST["password"])) && (isset($_POST["email"]))){
+if ((isset($_POST["place"]))){
 
     include '../../dbCon.php';
 
