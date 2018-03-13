@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="cd8bb530-7cb5-40a9-98b4-d40eec7c5d7c" name="github">
-        <fileTransfer host="" port="21" rootFolder="https://github.com/dilushaj/AnimalTracer.git">
+        <fileTransfer host="" port="21" rootFolder="">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
