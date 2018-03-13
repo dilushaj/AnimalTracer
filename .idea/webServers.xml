@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cd8bb530-7cb5-40a9-98b4-d40eec7c5d7c" name="github">
+        <fileTransfer host="" port="21" rootFolder="https://github.com/dilushaj/AnimalTracer.git">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
