@@ -72,7 +72,7 @@ if ((isset($_POST["place"]))){
 
     if (!get_magic_quotes_gpc()){
 
-        $new_username = addslashes($_POST["username"]);
+        $new_username = addslashes($_POST["place"]);
         $new_password1 = addslashes($_POST["password"]);
     }
     else{
