@@ -49,7 +49,7 @@
                 <input type="text" id="deviceid" name="deviceid" placeholder="Enter Device Id..." pattern="[0-9]{3}+/[DE]">
                 <label for="parkname">Select park:</label>
                 <?php
-                $conn1 = new PDO('mysql:host = localhost;dbname=animal tracer','root','');
+                $conn1 = new PDO('mysql:host = localhost;dbname=animaltracer1','root','');
                 $sql = "SELECT parkName FROM park" ;
                 $stmt = $conn1->prepare($sql);
                 $stmt->execute();
@@ -184,28 +184,29 @@ if(length($_POST['tpNum2'],'11')){
 else{
 
 }
-
-//add device
-mysqli_query($conn,"INSERT INTO device(deviceId,parkName,ownerId) VALUES('$deviceid','$park','$ownerid')");
+//think about a scenario where there can be multiple devices to the same owner
+//add owner
+mysqli_query($conn,"INSERT INTO deviceowner(ownerId,ownerName) 
+VALUES('$ownerid','$ownername')");
 
 if(mysqli_affected_rows($conn) > 0){
-    echo "<script> alert('Device Added Successfully')</script>";
-    //add owner only if device added successfully
-    mysqli_query($conn,"INSERT INTO deviceowner(ownerId,ownerName) 
-VALUES('$ownerid','$ownername')");
+    echo "<script> alert('Owner Added Successfully')</script>";
+    //add device only if owner added successfully
+    mysqli_query($conn,"INSERT INTO device(deviceId,parkName,ownerId) VALUES('$deviceid','$park','$ownerid')");
+
     if(mysqli_affected_rows($conn) > 0){
-        echo "<script> alert('Owner Added Successfully')</script>";
+        echo "<script> alert('Device Added Successfully')</script>";
         //add telephone no only if owner is added successfully
-        mysqli_query($conn,"INSERT INTO telephone_no_list(ownerId,tel_no) values('$ownerid','$tpNum1')");
+        mysqli_query($conn,"INSERT INTO telnumlist(ownerId,tel_no) values('$ownerid','$tpNum1')");
         if(test_input(empty($_POST['tpNum2'])) == false){
-            mysqli_query($conn,"INSERT INTO telephone_no_list(ownerId,tel_no) values('$ownerid','$tpNum2')");
+            mysqli_query($conn,"INSERT INTO telnumlist(ownerId,tel_no) values('$ownerid','$tpNum2')");
         }
     }else{
-        echo "<script> alert('Owner  not Added')</script>".$conn->error;
+        echo "<script> alert('Device  not Added')</script>".$conn->error;
     }
 
 }else{
-    echo "<script> alert('Device  not Added')</script>".$conn->error;
+    echo "<script> alert('Owner  not Added')</script>".$conn->error;
 }
 
 

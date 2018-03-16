@@ -50,7 +50,7 @@
                         <input type="text" id="deviceid" name="deviceid" placeholder="Enter Device Id..." pattern="[0-9]{3}+/[DE]">
                         <label for="parkname">Select park:</label>
                         <?php
-                        $conn1 = new PDO('mysql:host = localhost;dbname=animal tracer','root','');
+                        $conn1 = new PDO('mysql:host = localhost;dbname=animaltracer1','root','');
                         $sql = "SELECT parkName FROM park" ;
                         $stmt = $conn1->prepare($sql);
                         $stmt->execute();
@@ -62,9 +62,6 @@
                                 <option value="<?=$row['parkName'];?>"><?=$row['parkName'];?></option>
                             <?php endforeach; ?>
                         </select>
-                        <!--select name="park">
-                            <option value="single">Udawalwe National Park</option>
-                            <option value="double">Yala National Park</option></select-->
 
 
                         <label for="Ownerid">Owner Id</label>

@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b8573b4-e080-46a3-9303-fb8ed56d817f" name="Default" comment="commit 2-add map">
+    <list default="true" id="7b8573b4-e080-46a3-9303-fb8ed56d817f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Admin/DevReg/devRegUI.php" afterPath="$PROJECT_DIR$/Admin/DevReg/devRegUI.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/DevReg/registerDevice.php" afterPath="$PROJECT_DIR$/Admin/DevReg/registerDevice.php" />
+      <change beforePath="$PROJECT_DIR$/Admin/Login/login.php" afterPath="$PROJECT_DIR$/Admin/Login/login.php" />
+      <change beforePath="$PROJECT_DIR$/Device/DbAccess.php" afterPath="$PROJECT_DIR$/Device/DbAccess.php" />
+      <change beforePath="$PROJECT_DIR$/Device/dbcon.php" afterPath="$PROJECT_DIR$/Device/dbcon.php" />
+      <change beforePath="$PROJECT_DIR$/Device/device.js" afterPath="$PROJECT_DIR$/Device/device.js" />
+      <change beforePath="$PROJECT_DIR$/Device/device.sqlite" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Device/driverUi.php" afterPath="$PROJECT_DIR$/Device/driverUi.php" />
+      <change beforePath="$PROJECT_DIR$/Device/localDatabaseAccess.php" afterPath="$PROJECT_DIR$/Device/localDatabaseAccess.php" />
+      <change beforePath="$PROJECT_DIR$/Device/webServerAccess.php" afterPath="$PROJECT_DIR$/Device/webServerAccess.php" />
+      <change beforePath="$PROJECT_DIR$/dbCon.php" afterPath="$PROJECT_DIR$/dbCon.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,30 +24,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/Login/login.php">
+      <file leaf-file-name="devRegUI.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/DevReg/devRegUI.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="884">
+              <caret line="52" column="85" lean-forward="false" selection-start-line="52" selection-start-column="85" selection-end-line="52" selection-end-column="85" />
               <folding>
-                <marker date="1519713603059" expanded="true" signature="2512:2566" ph="SELECT * FRO... admin" />
+                <marker date="1521032041178" expanded="true" signature="2262:2287" ph="SELECT parkN... park" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/Home/index.html">
+      <file leaf-file-name="webServerAccess.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Device/webServerAccess.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+            <state relative-caret-position="255">
+              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <marker date="1521034754557" expanded="true" signature="221:248" ph="Select devic... Device" />
+                <marker date="1521034754557" expanded="true" signature="221:256" ph="Select devic... Device" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="localDatabaseAccess.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Device/localDatabaseAccess.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="driverUi.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DbAccess.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Device/DbAccess.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding>
+                <marker date="1521195001695" expanded="true" signature="272:432" ph="INSERT INTO Animal... " />
+                <marker date="1521195001695" expanded="true" signature="826:951" ph="INSERT INTO animal... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registerDevice.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/DevReg/registerDevice.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3162">
+              <caret line="186" column="78" lean-forward="false" selection-start-line="186" selection-start-column="78" selection-end-line="186" selection-end-column="78" />
+              <folding>
+                <marker date="1521034697477" expanded="true" signature="1983:2008" ph="SELECT parkN... park" />
+                <marker date="1521034697477" expanded="true" signature="6570:6645" ph="INSERT INTO deviceowner... " />
+                <marker date="1521034697477" expanded="true" signature="6825:6909" ph="INSERT INTO device... " />
+                <marker date="1521034697477" expanded="true" signature="7115:7182" ph="INSERT INTO telnumlist... " />
+                <marker date="1521034697477" expanded="true" signature="7276:7343" ph="INSERT INTO telnumlist... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="driverUi.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Device/driverUi.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbcon.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Device/dbcon.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="device.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Device/device.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -45,25 +118,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbCon.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dbCon.php">
+      <file leaf-file-name="device.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Device/device.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="377">
+              <caret line="64" column="4" lean-forward="true" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addmap.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Admin/Login/addmap.php">
+      <file leaf-file-name="dbCon.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dbCon.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-77">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-              <folding>
-                <marker date="1520961552997" expanded="true" signature="3022:3080" ph="SELECT * FRO... student" />
-                <marker date="1520961552997" expanded="true" signature="3613:3670" ph="SELECT * FRO... admin" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,8 +148,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Admin/Home/index.html" />
-        <option value="$PROJECT_DIR$/dbCon.php" />
         <option value="$PROJECT_DIR$/Admin/Login/addmap.php" />
+        <option value="$PROJECT_DIR$/Admin/Login/login.php" />
+        <option value="$PROJECT_DIR$/dbCon.php" />
+        <option value="$PROJECT_DIR$/Admin/DevReg/devRegUI.php" />
+        <option value="$PROJECT_DIR$/Admin/DevReg/registerDevice.php" />
+        <option value="$PROJECT_DIR$/Device/webServerAccess.php" />
+        <option value="$PROJECT_DIR$/Device/localDatabaseAccess.php" />
+        <option value="$PROJECT_DIR$/Device/dbcon.php" />
+        <option value="$PROJECT_DIR$/Device/DbAccess.php" />
+        <option value="$PROJECT_DIR$/Device/device.js" />
+        <option value="$PROJECT_DIR$/Device/driverUi.php" />
       </list>
     </option>
   </component>
@@ -118,6 +197,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,13 +214,17 @@
               <item name="Safari Animal Tracer" type="b2602c69:ProjectViewProjectNode" />
               <item name="Safari Animal Tracer" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Login" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="DevReg" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Safari Animal Tracer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Safari Animal Tracer" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Device" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,7 +278,8 @@
       <workItem from="1520871492605" duration="2543000" />
       <workItem from="1520928319177" duration="198000" />
       <workItem from="1520928531764" duration="54000" />
-      <workItem from="1520928600380" duration="7757000" />
+      <workItem from="1520928600380" duration="40048000" />
+      <workItem from="1521194901534" duration="545000" />
     </task>
     <task id="LOCAL-00001" summary="commit 2-add map">
       <created>1520929340436</created>
@@ -266,11 +351,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520962136079</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit 2-add map">
+      <created>1520962374686</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1520962374686</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10552000" />
+    <option name="totallyTimeSpent" value="43388000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -283,27 +375,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.48039216" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.4697428" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.48487142" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.48039216" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25718608" sideWeight="0.51960784" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04111842" sideWeight="0.53630865" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04111842" sideWeight="0.46369138" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.48487142" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25718608" sideWeight="0.51960784" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -350,17 +441,117 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit 2-add map" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Device/DbAccess.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Admin/DevReg/devRegUI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="85" lean-forward="false" selection-start-line="52" selection-start-column="85" selection-end-line="52" selection-end-column="85" />
+          <folding>
+            <marker date="1521032041178" expanded="true" signature="2262:2287" ph="SELECT parkN... park" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Device/webServerAccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1521034754557" expanded="true" signature="221:248" ph="Select devic... Device" />
+            <marker date="1521034754557" expanded="true" signature="221:256" ph="Select devic... Device" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Device/localDatabaseAccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Device/DbAccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <marker date="1521195001695" expanded="true" signature="272:432" ph="INSERT INTO Animal... " />
+            <marker date="1521195001695" expanded="true" signature="826:951" ph="INSERT INTO animal... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/DevReg/registerDevice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="186" column="78" lean-forward="false" selection-start-line="186" selection-start-column="78" selection-end-line="186" selection-end-column="78" />
+          <folding>
+            <marker date="1521034697477" expanded="true" signature="1983:2008" ph="SELECT parkN... park" />
+            <marker date="1521034697477" expanded="true" signature="6570:6645" ph="INSERT INTO deviceowner... " />
+            <marker date="1521034697477" expanded="true" signature="6825:6909" ph="INSERT INTO device... " />
+            <marker date="1521034697477" expanded="true" signature="7115:7182" ph="INSERT INTO telnumlist... " />
+            <marker date="1521034697477" expanded="true" signature="7276:7343" ph="INSERT INTO telnumlist... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Device/driverUi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Device/dbcon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Device/device.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbCon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Device/device.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2618">
+          <caret line="154" column="3" lean-forward="false" selection-start-line="154" selection-start-column="3" selection-end-line="154" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Admin/Login/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <marker date="1519713603059" expanded="true" signature="2512:2566" ph="SELECT * FRO... admin" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -368,7 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
           <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -392,9 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <marker date="1519713603059" expanded="true" signature="2512:2566" ph="SELECT * FRO... admin" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -402,7 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
           <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -426,9 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <marker date="1519713603059" expanded="true" signature="2512:2566" ph="SELECT * FRO... admin" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -436,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
           <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -456,48 +638,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/Login/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <marker date="1519713603059" expanded="true" signature="2512:2566" ph="SELECT * FRO... admin" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Admin/Home/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1479">
           <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Device/driverUi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbCon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Admin/Login/addmap.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
+        <state relative-caret-position="22">
           <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Login/adminReg.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/Login/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="79" column="74" lean-forward="true" selection-start-line="79" selection-start-column="74" selection-end-line="79" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbCon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/DevReg/devRegUI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="85" lean-forward="false" selection-start-line="52" selection-start-column="85" selection-end-line="52" selection-end-column="85" />
           <folding>
-            <marker date="1520961552997" expanded="true" signature="3022:3080" ph="SELECT * FRO... student" />
-            <marker date="1520961552997" expanded="true" signature="3613:3670" ph="SELECT * FRO... admin" />
+            <marker date="1521032041178" expanded="true" signature="2262:2287" ph="SELECT parkN... park" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/DevReg/registerDevice.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="186" column="78" lean-forward="false" selection-start-line="186" selection-start-column="78" selection-end-line="186" selection-end-column="78" />
+          <folding>
+            <marker date="1521034697477" expanded="true" signature="1983:2008" ph="SELECT parkN... park" />
+            <marker date="1521034697477" expanded="true" signature="6570:6645" ph="INSERT INTO deviceowner... " />
+            <marker date="1521034697477" expanded="true" signature="6825:6909" ph="INSERT INTO device... " />
+            <marker date="1521034697477" expanded="true" signature="7115:7182" ph="INSERT INTO telnumlist... " />
+            <marker date="1521034697477" expanded="true" signature="7276:7343" ph="INSERT INTO telnumlist... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Device/device.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Device/webServerAccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1521034754557" expanded="true" signature="221:248" ph="Select devic... Device" />
+            <marker date="1521034754557" expanded="true" signature="221:256" ph="Select devic... Device" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Device/localDatabaseAccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Device/dbcon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Device/DbAccess.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <marker date="1521195001695" expanded="true" signature="272:432" ph="INSERT INTO Animal... " />
+            <marker date="1521195001695" expanded="true" signature="826:951" ph="INSERT INTO animal... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Device/device.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="64" column="4" lean-forward="true" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Device/driverUi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
